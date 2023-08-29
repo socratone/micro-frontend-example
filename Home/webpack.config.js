@@ -69,6 +69,7 @@ module.exports = {
       name: 'home',
       filename: 'remoteEntry.js',
       remotes: {
+        // remoteEntry.js를 fetching 후 components로 불러올 수 있다.
         components: 'components@http://localhost:3001/remoteEntry.js',
       },
     }),

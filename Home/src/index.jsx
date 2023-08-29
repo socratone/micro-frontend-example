@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 
+// Components 앱에서 불러온다.
 const Button = React.lazy(() => import('components/Button'));
 
 // Clear the existing HTML content
